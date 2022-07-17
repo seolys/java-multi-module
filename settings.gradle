@@ -1,0 +1,8 @@
+rootProject.name = 'java-multi-module'
+
+include 'api'
+include 'commons'
+include 'aws'
+include 'aws:sqs'
+//findProject(':aws:sqs')?.name = 'sqs'
+
